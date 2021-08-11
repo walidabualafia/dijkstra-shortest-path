@@ -1,4 +1,4 @@
-# Dijkstra's Algorithm
+# Dijkstra's Shortest Path Algorithm
 
 This project is designed to calculate the shortest path between two vertices in a Graph data structure. The user will provide a text file of commands that follows certain guidelines to be able to build a graph of their choice, containing the vertices and edges they would like. 
 
