@@ -1,0 +1,35 @@
+undirected
+vertex seattle
+vertex san_francisco
+vertex los_angeles
+vertex las_vegas
+vertex denver
+vertex minneapolis
+vertex dallas
+vertex chicago
+vertex washington_dc
+vertex miami
+vertex new_york
+vertex boston
+edge seattle san_francisco 1306
+edge seattle denver 2161
+edge seattle minneapolis 2661
+edge san_francisco los_angeles 629
+edge san_francisco las_vegas 919
+edge los_angeles las_vegas 435
+edge las_vegas denver 1225
+edge las_vegas dallas 1983
+edge denver minneapolis 1483
+edge denver dallas 1258
+edge minneapolis dallas 1532
+edge minneapolis chicago 661
+edge dallas washington_dc 2113
+edge dallas miami 2161
+edge chicago boston 1613
+edge chicago washington_dc 1145
+edge washington_dc miami 1709
+edge washington_dc new_york 383
+edge washington_dc boston 725
+edge miami new_york 2145
+edge new_york boston 338
+dijkstra los_angeles boston
